@@ -16,7 +16,7 @@ function App() {
   return(
     <>
     <div>
-      <h1 className='h1'>Counter App</h1>
+      <h1 className="h1 w-[100%] text-white text-4xl">Counter App</h1>
       <div className="App">
         <div onClick={increment}>+</div>
         <div>{value}</div>
